@@ -106,7 +106,7 @@ class GenericCSVData(feed.CSVDataBase):
         if self._dtstr:
             dtformat = self.p.dtformat
 
-            print('self.p.datetime : %.2f' % self.p.datetime )
+            #print('self.p.datetime : %.2f' % self.p.datetime )
             if self.p.time >= 0:
                 # add time value and format if it's in a separate field
                 dtfield += 'T' + linetokens[self.p.time]
