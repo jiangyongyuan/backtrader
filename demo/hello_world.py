@@ -108,7 +108,7 @@ if __name__ == '__main__':
         low=4,
         close=5,
         volumn=6,
-        # volumnAmount=7,
+        volumnAmount=7,
         # Do not pass values before this date
         fromdate=datetime.datetime(2019, 1, 1),
         # Do not pass values after this date
